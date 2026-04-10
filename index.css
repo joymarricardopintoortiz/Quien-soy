@@ -28,17 +28,15 @@ body {
 }
 
 .contenedor {
-    width: 96%;
-    margin-top: auto;
+    width: 100%;
     background-color: white;
-    padding: 60px 40px;
+    padding: 80px 0;
 }
 
 .contenedor2 {
-    width: 96%;
-    margin-top: auto;
+    width: 100%;
     background-color: #ff4d2d;
-    padding: 40px;
+    padding: 80px 0;
 }
 
 .contenedor3 {
@@ -54,14 +52,12 @@ body {
 }
 
 .foto {
-    width: 350px;
-    margin-left: 100px;
+    width: 400px;
 }
 
 .foto2 {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
@@ -96,15 +92,14 @@ body {
     margin: 15px 0;
 }
 
-.tabla-encabezado{
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: left;
+.tabla-encabezado {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.tabla-encabezado td{
-    vertical-align: top;
-    padding: 10px;
+.tabla-encabezado td {
+    vertical-align: middle;
+    padding: 20px;
 }
 
 .tabla-encabezado-2 {
@@ -121,10 +116,43 @@ body {
 }
 
 .btn {
+    margin-top: 20px;
+    padding: 12px 25px;
     background-color: #ff4d2d;
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #ff4d2d;
+}
+
+.contenedor h1 {
+    color: #ff4d2d;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contenedor p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tabla-encabezado td:last-child {
+    max-width: 500px;
+}
+
+.contenedor2 table {
+    margin: 0 auto;
+}
+
+.nombre {
+    text-align: center;
+    max-width: 1500px;
+    margin: 20px auto;
+    color: white;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+h3.nombre {
+    margin-top: 30px;
+    font-weight: bold;
 }
