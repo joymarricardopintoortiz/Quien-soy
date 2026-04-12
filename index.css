@@ -40,10 +40,9 @@ body {
 }
 
 .contenedor3 {
-    width: 96%;
-    margin-top: auto;
+    width: 100%;
     background-color: white;
-    padding: 40px;
+    padding: 60px 0;
 }
 
 .fila {
@@ -72,18 +71,18 @@ body {
 }
 
 .card {
-    border: 2px solid #ccc;
-    padding: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
     vertical-align: top;
     background-color: white;
-    width: 250px;
+    width: 220px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .card img {
-    width: 400px;
-    height: 180px;
-    object-fit: cover;
+    width: 100%;
+    height: 130px;
 }
 
 .linea {
@@ -103,9 +102,14 @@ body {
 }
 
 .tabla-encabezado-2 {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
     table-layout: fixed;
+}
+
+.tabla-encabezado-2 {
+padding: 15px;
 }
 
 .footer {
@@ -116,12 +120,12 @@ body {
 }
 
 .btn {
-    margin-top: 20px;
-    padding: 12px 25px;
+    margin-top: 15px;
+    padding: 10px 20px;
     background-color: #ff4d2d;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .contenedor h1 {
@@ -155,4 +159,8 @@ body {
 h3.nombre {
     margin-top: 30px;
     font-weight: bold;
+}
+
+.contenedor3 h1 {
+margin-bottom: 30px;
 }
